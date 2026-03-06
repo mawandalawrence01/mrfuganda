@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Contact Us | Masaka Relief Foundation</title>
+  <meta name="description" content="Get in touch with Masaka Relief Foundation. Reach out to donate, volunteer, partner, or learn more about our work in Greater Masaka, Uganda.">
+  <meta property="og:title" content="Contact Us | Masaka Relief Foundation">
+  <meta property="og:description" content="Reach out to MRF to donate, volunteer, or partner with us.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/images/logo/mrf-logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header scrolled" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="assets/images/logo/mrf-logo.jpg" alt="MRF Logo">
+        <div class="header__logo-text">MRF <span>Masaka Relief Foundation</span></div>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="who-we-are.html" class="nav__link">Who We Are</a></li>
+          <li><a href="what-we-do.html" class="nav__link">What We Do</a></li>
+          <li><a href="publications.html" class="nav__link">Publications</a></li>
+          <li><a href="media.html" class="nav__link">Media</a></li>
+          <li><a href="contact.html" class="nav__link active">Contact</a></li>
+        </ul>
+        <a href="#donate" class="btn btn--accent btn--sm btn--pill nav__donate">Donate</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <div class="nav-overlay" id="nav-overlay">
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="who-we-are.html" class="nav__link">Who We Are</a></li>
+        <li><a href="what-we-do.html" class="nav__link">What We Do</a></li>
+        <li><a href="publications.html" class="nav__link">Publications</a></li>
+        <li><a href="media.html" class="nav__link">Media</a></li>
+        <li><a href="contact.html" class="nav__link active">Contact</a></li>
+        <li><a href="#donate" class="btn btn--accent btn--pill mt-lg">Donate</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container page-header__content">
+      <h1 class="page-header__title">Contact Us</h1>
+      <div class="page-header__breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Contact Info Cards -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-header__label">Reach Out</span>
+          <h2 class="section-header__title">Get in Touch</h2>
+          <p class="section-header__desc">We'd love to hear from you. Whether you want to donate, volunteer, partner, or simply learn more about our work, reach out through any of the channels below.</p>
+        </div>
+
+        <div class="grid grid--3 reveal">
+          <div class="icon-card">
+            <div class="icon-card__icon">
+              <i class="fas fa-location-dot"></i>
+            </div>
+            <h3 class="icon-card__title">Our Address</h3>
+            <p class="icon-card__desc">
+              Masaka Relief Foundation<br>
+              P.O. Box 109, Masaka, Uganda<br>
+              Kisuuna Village, Nyendo Mukungwe Division, Masaka District
+            </p>
+          </div>
+
+          <div class="icon-card">
+            <div class="icon-card__icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h3 class="icon-card__title">Phone</h3>
+            <p class="icon-card__desc">
+              <a href="tel:+256706333500">+256 706 333 500</a><br>
+              <a href="tel:+256781236221">+256 781 236 221</a>
+            </p>
+          </div>
+
+          <div class="icon-card">
+            <div class="icon-card__icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3 class="icon-card__title">Email</h3>
+            <p class="icon-card__desc">
+              <a href="mailto:mrf19.ug@gmail.com">mrf19.ug@gmail.com</a><br>
+              <small class="text-muted">We typically respond within 24-48 hours</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form + Map -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="split reveal">
+          <!-- Form -->
+          <div>
+            <h2 class="mb-lg">Send Us a Message</h2>
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <select id="subject" name="subject" required>
+                  <option value="" disabled selected>Select a subject</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="volunteering">Volunteering</option>
+                  <option value="partnership">Partnership</option>
+                  <option value="donation">Donation</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--lg">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+            <!-- Success message (hidden by default) -->
+            <div id="form-success" style="display:none;" class="text-center" role="alert">
+              <div style="padding: 3rem 2rem;">
+                <i class="fas fa-check-circle text-primary" style="font-size: 3rem; margin-bottom: 1rem; display: block;"></i>
+                <h3>Thank You!</h3>
+                <p class="text-muted mt-md">Your message has been received. We'll get back to you within 24-48 hours.</p>
+                <a href="index.html" class="btn btn--primary btn--pill mt-lg">Back to Home</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div>
+            <h2 class="mb-lg">Find Us</h2>
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127672.72580458!2d31.6!3d-0.34!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d91b5cfe257d93%3A0x98e12a1e2c13e857!2sMasaka%2C%20Uganda!5e0!3m2!1sen!2s!4v1"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="MRF Location - Masaka, Uganda">
+              </iframe>
+            </div>
+            <div class="mt-lg">
+              <p class="text-muted"><i class="fas fa-info-circle text-primary"></i> We are located in Kisuuna Village, Nyendo Mukungwe Division, Masaka District, Uganda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get Involved -->
+    <section class="section" id="donate">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-header__label">Get Involved</span>
+          <h2 class="section-header__title">Make a Difference Today</h2>
+          <p class="section-header__desc">There are many ways you can support our mission and help transform lives in the Greater Masaka Region.</p>
+        </div>
+
+        <div class="grid grid--3 reveal">
+          <!-- Donate -->
+          <div class="icon-card" style="border-color: var(--color-primary); background: var(--color-primary-50);">
+            <div class="icon-card__icon" style="background: var(--color-primary); color: white;">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3 class="icon-card__title">Donate</h3>
+            <p class="icon-card__desc">Your financial contribution directly supports our programs in education, health, livelihoods, and emergency relief for vulnerable communities.</p>
+            <a href="mailto:mrf19.ug@gmail.com?subject=Donation Inquiry" class="btn btn--primary btn--pill btn--sm mt-md">
+              <i class="fas fa-hand-holding-heart"></i> Donate Now
+            </a>
+          </div>
+
+          <!-- Volunteer -->
+          <div class="icon-card" style="border-color: var(--color-green); background: rgba(45, 106, 46, 0.05);">
+            <div class="icon-card__icon" style="background: var(--color-green); color: white;">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h3 class="icon-card__title">Volunteer</h3>
+            <p class="icon-card__desc">Join our dedicated team on the ground and contribute your skills and time to making a tangible difference in the lives of children and communities.</p>
+            <a href="mailto:mrf19.ug@gmail.com?subject=Volunteer Application" class="btn btn--secondary btn--pill btn--sm mt-md" style="border-color: var(--color-green); color: var(--color-green);">
+              <i class="fas fa-user-plus"></i> Volunteer
+            </a>
+          </div>
+
+          <!-- Partner -->
+          <div class="icon-card" style="border-color: var(--color-gray-800); background: rgba(26, 26, 26, 0.03);">
+            <div class="icon-card__icon" style="background: var(--color-gray-800); color: white;">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3 class="icon-card__title">Partner With Us</h3>
+            <p class="icon-card__desc">Organizations, governments, and institutions can partner with MRF to amplify impact and create sustainable change across Greater Masaka.</p>
+            <a href="mailto:mrf19.ug@gmail.com?subject=Partnership Inquiry" class="btn btn--secondary btn--pill btn--sm mt-md">
+              <i class="fas fa-handshake"></i> Partner
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <img src="assets/images/logo/mrf-logo.jpg" alt="MRF Logo">
+            <span class="footer__logo-text">Masaka Relief Foundation</span>
+          </div>
+          <p>Considering Assistance and Relief Everywhere. Working together to empower vulnerable children, youth, and communities across the Greater Masaka Region, Uganda.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="who-we-are.html">Who We Are</a></li>
+            <li><a href="what-we-do.html">What We Do</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Programs</h4>
+          <ul class="footer__links">
+            <li><a href="what-we-do.html#child-youth-empowerment">Child & Youth Empowerment</a></li>
+            <li><a href="what-we-do.html#community-health">Community Health</a></li>
+            <li><a href="what-we-do.html#sustainable-livelihoods">Sustainable Livelihoods</a></li>
+            <li><a href="what-we-do.html#household-stability">Household Stability</a></li>
+            <li><a href="what-we-do.html#environmental-stewardship">Environmental Stewardship</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact Us</h4>
+          <div class="footer__contact-item">
+            <i class="fas fa-location-dot"></i>
+            <span>P.O. Box 109, Masaka, Uganda<br>Kisuuna Village, Nyendo Mukungwe Division</span>
+          </div>
+          <div class="footer__contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+256 706 333 500<br>+256 781 236 221</span>
+          </div>
+          <div class="footer__contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>mrf19.ug@gmail.com</span>
+          </div>
+          <div class="newsletter mt-lg">
+            <input type="email" placeholder="Your email address" aria-label="Email for newsletter">
+            <button type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2025 Masaka Relief Foundation. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
