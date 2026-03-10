@@ -53,6 +53,21 @@ document.addEventListener('DOMContentLoaded', () => {
     navOverlay.querySelectorAll('.nav__link, .btn').forEach(link => {
       link.addEventListener('click', closeNav);
     });
+
+    // Close nav when tapping outside
+    document.addEventListener('click', (e) => {
+      if (!navOverlay.classList.contains('active')) return;
+      if (!navOverlay.contains(e.target) && !hamburger.contains(e.target)) {
+        closeNav();
+      }
+    });
+
+    // Close nav on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && navOverlay.classList.contains('active')) {
+        closeNav();
+      }
+    });
   };
 
   /* ------------------------------------------
