@@ -6,3 +6,8 @@ receipt-*
 package-lock.json
 wrangler.jsonc
 .wrangler/
+
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
